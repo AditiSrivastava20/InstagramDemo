@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Firstinfo" representedClassName="Firstinfo" syncable="YES" codeGenerationType="class">
+        <attribute name="feedpic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usercomment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userpic" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoplay" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Secondinfo" representedClassName="Secondinfo" syncable="YES" codeGenerationType="class">
+        <attribute name="dp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scrollnames" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Firstinfo" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Secondinfo" positionX="-63" positionY="9" width="128" height="90"/>
+    </elements>
 </model>
